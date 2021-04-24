@@ -1,0 +1,8 @@
+2021-04-24 09:36:57.926 [main] DEBUG com.ftj.o2o.dao.ShopMapper.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_address, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) values (?,?,?, ?,?,?, ?,?,?,?, ?,?,?) 
+2021-04-24 09:36:57.976 [main] DEBUG com.ftj.o2o.dao.ShopMapper.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2021-04-24 09:36:57.391(Timestamp), null, 1(Integer), 审核中(String)
+2021-04-24 09:37:32.253 [main] DEBUG com.ftj.o2o.dao.ShopMapper.insertShop - ==>  Preparing: insert into tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) values (?,?,?, ?,?,?, ?,?,?,?, ?,?,?) 
+2021-04-24 09:37:32.304 [main] DEBUG com.ftj.o2o.dao.ShopMapper.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), test(String), test(String), test(String), test(String), null, 2021-04-24 09:37:31.782(Timestamp), null, 1(Integer), 审核中(String)
+2021-04-24 09:37:32.319 [main] DEBUG com.ftj.o2o.dao.ShopMapper.insertShop - <==    Updates: 1
+2021-04-24 09:54:50.582 [main] DEBUG com.ftj.o2o.dao.ShopMapper.updateShop - ==>  Preparing: update tb_shop SET shop_desc = ?, shop_addr = ?, last_edit_time = ? where shop_id = ? 
+2021-04-24 09:54:50.623 [main] DEBUG com.ftj.o2o.dao.ShopMapper.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2021-04-24 09:54:50.048(Timestamp), 1(Long)
+2021-04-24 09:54:50.698 [main] DEBUG com.ftj.o2o.dao.ShopMapper.updateShop - <==    Updates: 1
